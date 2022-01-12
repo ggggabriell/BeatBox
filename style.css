@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    background-image: url('/projetos/personalProjects/beatboxAPP/images/dark-forest-digital-art-irijxerzh35p2aog.jpg');
+    background-size: cover;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beatbox{
+    background-color: #333;
+    border-radius: 20px;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content:space-around;
+}
+
+.beat{
+    width: 150px;
+    height: 150px;
+    flex-basis: 29%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beat .button{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em; 
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+/* colors */
+.blue{
+    border: 5px solid aqua;
+    border-radius: 10px;
+}
+
+.purple{
+    border: 5px solid purple;
+    border-radius: 10px;
+}
+
+.white{
+    border: 5px solid #fff;
+    border-radius: 10px;
+}
+
